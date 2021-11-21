@@ -3,7 +3,7 @@ import { ReactElement, useState } from "react";
 export const Reasons = (): ReactElement => {
   const firstText =
     "SovTech has a very interesting approach toward the way it interacts with its employees.I found the foosball tournaments quite interesting. Not neccessarily the foosball itself, but the fact that it encourages such recreational activities.";
-
+  const id = "I'd"
   const [reason, setReaon] = useState<string>(firstText);
   const [selected, setSelected] = useState<number>(1);
 
@@ -50,7 +50,7 @@ export const Reasons = (): ReactElement => {
         </p>
         <p className="p-2 overflow-hidden text-center">
           I am very passionate about programming and have therefore made it my
-          mission be the best developer I can be. I'd specifically like to be a
+          mission be the best developer I can be. {id} specifically like to be a
           developer at SovTech for the following reasons...
         </p>
       </div>
