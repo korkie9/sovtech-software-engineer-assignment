@@ -2,7 +2,7 @@ import { ReactElement, useState } from "react";
 
 export const Reasons = (): ReactElement => {
   const firstText =
-    "SovTech has a very interesting approach toward the way it interacts with its employees.I found the foosball tournaments quite interesting. Not neccessarily the foosball itself, but the fact that it encourages such recreational activities.";
+    "SovTech has a very interesting approach toward the way it interacts with its employees. I found the foosball tournaments quite interesting. Not neccessarily the foosball itself, but the fact that it encourages such recreational activities.";
   const id = "I'd"
   const [reason, setReaon] = useState<string>(firstText);
   const [selected, setSelected] = useState<number>(1);
